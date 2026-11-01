@@ -22,7 +22,7 @@ data with known reference parameters; they verify the method and do not predict 
 - The identifiable subspace agrees with a numerical pivoted-QR reduction (largest principal angle
   about `1e-15` rad) and with an independent rank check on MATLAB's recursive Newton-Euler model.
 
-## 2. Identification on the simulated trajectory (known-dimension base sets)
+## 2. Identification on the simulated trajectory (symbolic-dimension base sets: 56, 54 and 71 parameters)
 
 | Robot | Estimator | Median relative error (%) | Torque RMSE (N m) |
 |---|---|---|---|
