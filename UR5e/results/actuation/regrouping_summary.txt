@@ -1,0 +1,15 @@
+Robot                                  : UR5e
+Link dimensions                        : symbolic
+Actuation terms (Ia, Fv, Fc)           : included
+Monomials per joint                    : [168 164 133 100 61 25]
+Distinct monomials p                   : 208
+Rank-test states M                     : 347
+Structural rank r = p_b                : 72
+Dependent directions removed           : 136 (65.38 %)
+sigma_r / sigma_(r+1) / tolerance      : 6.5541e+00 / 2.6049e-13 / 9.3383e-03
+Verification states                    : 200
+max |tau - A*Theta|_inf                : 2.842e-13
+max |tau - A_b*Theta_b|_inf (e_max)    : 2.558e-13
+max |tau|_inf                          : 1.476e+02
+Base count with numerical geometry     : 52
+Run time                               : 1349.4 s
