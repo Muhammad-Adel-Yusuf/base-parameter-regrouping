@@ -1,0 +1,13 @@
+Benchmark and sensitivity: UR5e
+
+[symbolic geometry] exact proof of A_D = A_I*Gamma: 134 dependent columns, 804 entries, 0 nonzero remainders, 6.7 s
+
+[known geometry] exact proof of A_D = A_I*Gamma: 13 dependent columns, 78 entries, 0 nonzero remainders, 3.3 s
+[symbolic geometry] p = 190, r = 56: Stage-3 rank over 3 state counts x 10 seeds x 2 scalings in [56, 56]; min sigma_r/sigma_(r+1) = 7.99e+13; relative thresholds in (8.7e-16, 6.0e-02) give r in every case
+[known geometry] p = 49, r = 36: Stage-3 rank over 3 state counts x 10 seeds x 2 scalings in [36, 36]; min sigma_r/sigma_(r+1) = 2.07e+14; relative thresholds in (5.7e-16, 6.0e-02) give r in every case
+
+Numerical baseline (pivoted QR of the standard-parameter regressor, 82 states):
+  base count 36 (framework: 36); regressor evaluation 41.80 s, QR 0.707 s
+  largest principal angle between identifiable subspaces: framework vs QR 1.99e-15 rad, framework vs row space of Y 2.83e-15 rad
+
+Independent check on the manufacturer model (RNEA, 80 states): rank 36 of 60, sigma_r/sigma_(r+1) = 1.88e+12, 43.7 s

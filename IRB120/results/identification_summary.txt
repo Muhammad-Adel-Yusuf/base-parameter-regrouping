@@ -1,0 +1,17 @@
+Robot: IRB120
+Samples N = 10001, W_b = 60006 x 54
+Nonzero nominal base parameters: 53 of 54
+
+-- Model validation (Simscape vs A_b*theta_nom)
+max |error| = 4.974e-14 N.m, per-joint RMSE = [7.29e-16 1.21e-14 4.17e-15 1.6e-15 6.54e-17 2.12e-18]
+
+-- Data informativeness
+rank = 54, tolerance = 2.729e-08
+sigma_1 = 2547, sigma_min = 6.2841
+raw condition number = 405.31, normalized condition number = 14.178
+
+-- Nominal estimation
+OLS : median rel err = 2.078e-10 %, max rel err = 5.101e-06 % (Theta_b,16, nominal -1.643e-08), max |zero-param dev| = 3.074e-11, torque RMSE = 1.160e-14 N.m
+RLS : median rel err = 4.442e-06 %, max rel err = 5.455e-02 % (Theta_b,16, nominal -1.643e-08), max |zero-param dev| = 3.055e-11, torque RMSE = 1.019e-10 N.m
+IRLS: median rel err = 2.078e-10 %, max rel err = 5.101e-06 % (Theta_b,16, nominal -1.643e-08), max |zero-param dev| = 3.074e-11, torque RMSE = 1.160e-14 N.m
+RLS-OLS relative difference = 1.278e-09

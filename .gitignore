@@ -1,0 +1,9 @@
+# MATLAB / Simulink build artefacts
+slprj/
+*.slxc
+*.asv
+*.autosave
+*.mexw64
+codegen/
+# run logs
+*_log.txt

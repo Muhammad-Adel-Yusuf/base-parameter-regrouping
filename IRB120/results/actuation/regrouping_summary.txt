@@ -1,0 +1,16 @@
+Robot                                  : IRB120
+Link dimensions                        : symbolic
+Actuation terms (Ia, Fv, Fc)           : included
+Monomials per joint                    : [88 113 96 61 43 19]
+Distinct monomials p                   : 129
+Rank-test states M                     : 215
+Structural rank r = p_b                : 70
+Dependent directions removed           : 59 (45.74 %)
+sigma_r / sigma_(r+1) / tolerance      : 5.0664e+00 / 1.0568e-13 / 4.3568e-03
+Verification states                    : 200
+max |tau - A*Theta|_inf                : 3.268e-13
+max |tau - A_b*Theta_b|_inf (e_max)    : 3.055e-13
+max |tau|_inf                          : 1.340e+02
+Base count with numerical geometry     : 52
+Run time                               : 2615.1 s
+Stage times 1-2 / 3 / 4 / 5 (s)        : 2497.9 / 21.3 / 10.7 / 82.5

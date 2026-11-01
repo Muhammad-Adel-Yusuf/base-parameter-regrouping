@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper."
+title: "Automatic base-parameter regrouping for robot dynamic equations"
+type: software
+authors:
+  - family-names: "Yusuf"
+    given-names: "Muhammad Adel"
+    orcid: "https://orcid.org/0000-0003-0792-4209"
+  - family-names: "Alyazidi"
+    given-names: "Nezar M."
+    orcid: "https://orcid.org/0000-0001-8977-9302"
+  - family-names: "Shafiullah"
+    given-names: "Md"
+    orcid: "https://orcid.org/0000-0003-2282-5663"
+  - family-names: "Nasir"
+    given-names: "Ali"
+    orcid: "https://orcid.org/0000-0002-7789-428X"
+repository-code: "https://github.com/Muhammad-Adel-Yusuf/base-parameter-regrouping"
+# doi: "10.5281/zenodo.XXXXXXX"   # add after the first release is archived on Zenodo
+preferred-citation:
+  type: article
+  title: "Automatic Symbolic-Numerical Derivation of Explicit Base Parameters from Robot Dynamic Equations"
+  authors:
+    - family-names: "Yusuf"
+      given-names: "Muhammad Adel"
+    - family-names: "Alyazidi"
+      given-names: "Nezar M."
+    - family-names: "Shafiullah"
+      given-names: "Md"
+    - family-names: "Nasir"
+      given-names: "Ali"
+  status: "in-review"
+  journal: "Mechanism and Machine Theory"
