@@ -78,8 +78,8 @@ framework to **your own robot**, write the symbolic torque equations as MATLAB a
 
 ## Data and the identification study
 
-The Simscape datasets and the identification and validation scripts of the paper are not part of
-this lean release. They can be provided on request.
+The result summaries of the identification and validation study are included (see `RESULTS.md`). The Simscape datasets and the identification scripts that produced them are not part of
+this lean release and can be provided on request.
 
 ## Citation
 
