@@ -1,0 +1,16 @@
+Robot                                  : Panda
+Link dimensions                        : symbolic
+Actuation terms (Ia, Fv, Fc)           : included
+Monomials per joint                    : [126 159 143 123 90 59 21]
+Distinct monomials p                   : 178
+Rank-test states M                     : 255
+Structural rank r = p_b                : 90
+Dependent directions removed           : 88 (49.44 %)
+sigma_r / sigma_(r+1) / tolerance      : 6.0112e+00 / 1.7916e-13 / 6.1489e-03
+Verification states                    : 200
+max |tau - A*Theta|_inf                : 5.684e-14
+max |tau - A_b*Theta_b|_inf (e_max)    : 8.527e-14
+max |tau|_inf                          : 1.663e+02
+Base count with numerical geometry     : 62
+Run time                               : 130.6 s
+Stage times 1-2 / 3 / 4 / 5 (s)        : 58.3 / 17.0 / 30.0 / 24.4
