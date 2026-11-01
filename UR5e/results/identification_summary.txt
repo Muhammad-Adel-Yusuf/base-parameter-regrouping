@@ -1,0 +1,40 @@
+Robot: UR5e
+Samples N = 10001, W_b = 60006 x 56
+Nonzero nominal base parameters: 24 of 56
+
+-- Model validation (Simscape vs A_b*theta_nom)
+max |error| = 9.680e-10 N.m, per-joint RMSE = [2.28e-10 1.4e-10 9.35e-11 5.48e-11 4.84e-11 2.49e-14]
+
+-- Data informativeness
+rank = 56, tolerance = 1.364e-08
+sigma_1 = 1478.9, sigma_min = 7.0563
+raw condition number = 209.59, normalized condition number = 11.246
+
+-- Nominal estimation
+OLS : median rel err = 5.733e-08 %, max rel err = 1.911e-06 % (Theta_b,55, nominal -0.004095), max |zero-param dev| = 4.916e-10, torque RMSE = 6.455e-11 N.m
+RLS : median rel err = 3.076e-07 %, max rel err = 3.219e-05 % (Theta_b,56, nominal 0.01511), max |zero-param dev| = 1.422e-09, torque RMSE = 3.303e-10 N.m
+IRLS: median rel err = 5.286e-08 %, max rel err = 1.929e-06 % (Theta_b,55, nominal -0.004095), max |zero-param dev| = 4.780e-10, torque RMSE = 6.512e-11 N.m
+RLS-OLS relative difference = 1.498e-09
+
+-- Controlled contamination (seed 42)
+clean-torque RMSE: OLS = 1.862e-02, IRLS = 6.956e-03, ratio = 2.677
+
+-- Monte Carlo (100 trials per level, seed 2026)
+outlier%  OLS_median  OLS_IQR    IRLS_median IRLS_IQR   eta%
+  0.0   6.2841e-03 1.101e-03 6.5082e-03 1.168e-03  -3.57
+  1.0   1.1498e-02 1.998e-03 6.6253e-03 1.122e-03  42.38
+  2.0   1.5067e-02 2.280e-03 6.6781e-03 1.255e-03  55.68
+  3.0   1.7599e-02 2.179e-03 6.8341e-03 1.059e-03  61.17
+  4.0   2.0229e-02 2.569e-03 7.0287e-03 1.262e-03  65.25
+  5.0   2.2121e-02 3.694e-03 7.1405e-03 1.336e-03  67.72
+  6.0   2.3571e-02 3.632e-03 7.3722e-03 1.466e-03  68.72
+  7.0   2.5134e-02 6.273e-03 7.2095e-03 1.367e-03  71.32
+  8.0   2.7865e-02 5.990e-03 7.4204e-03 1.314e-03  73.37
+  9.0   2.8482e-02 4.934e-03 7.6665e-03 1.449e-03  73.08
+ 10.0   2.9963e-02 5.146e-03 7.8040e-03 1.229e-03  73.95
+ 11.0   3.2011e-02 5.805e-03 8.0956e-03 1.517e-03  74.71
+ 12.0   3.3731e-02 6.406e-03 8.0592e-03 2.052e-03  76.11
+ 13.0   3.3375e-02 5.773e-03 8.0976e-03 1.223e-03  75.74
+ 14.0   3.6108e-02 5.483e-03 8.4472e-03 1.256e-03  76.61
+ 15.0   3.7757e-02 6.222e-03 8.6775e-03 1.414e-03  77.02
+OLS median increase over sweep: factor 6.008; IRLS median change: 33.33 %

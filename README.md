@@ -39,6 +39,8 @@ The known-dimension counts equal the closed-form value `1 + 7(n − 1)` for a re
 with the first axis parallel to gravity. The explicit base-parameter lists are in
 `<robot>/results/**/theta_base_list.txt` (and as LaTeX in `theta_base_latex.tex`).
 
+See [RESULTS.md](RESULTS.md) for the full result tables and the index of result files.
+
 ## Requirements
 
 Developed and tested with MATLAB R2026b and the Symbolic Math Toolbox. The Panda example
