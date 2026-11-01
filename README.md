@@ -81,10 +81,23 @@ this lean release. They can be provided on request.
 
 ## Citation
 
-See `CITATION.cff`. A DOI will be added when the paper and the Zenodo archive are available.
+**If you use this software or the base-parameter results in your work, please cite the paper.**
+GitHub's "Cite this repository" button (right-hand sidebar) provides the BibTeX and APA entries
+from `CITATION.cff`. Until the paper is published, cite:
+
+```bibtex
+@unpublished{yusuf_base_parameters,
+  author = {Yusuf, Muhammad Adel and Alyazidi, Nezar M. and Shafiullah, Md and Nasir, Ali},
+  title  = {Automatic Symbolic--Numerical Derivation of Explicit Base Parameters from Robot Dynamic Equations},
+  note   = {Submitted to Mechanism and Machine Theory. Code: https://github.com/Muhammad-Adel-Yusuf/base-parameter-regrouping},
+  year   = {2026}
+}
+```
+
+A DOI will be added when the paper and the Zenodo archive are available.
 
 ## License and third-party material
 
-License: to be chosen (see the repository's `LICENSE`). The robot descriptions used in the
+Released under the [MIT License](LICENSE). The robot descriptions used in the
 examples come from the ROS-Industrial (UR, ABB) and Franka Emika (`franka_description`,
 Apache-2.0) projects; the Panda inertial data are from C. Gaz *et al.*, IEEE RA-L 4(4), 2019.
