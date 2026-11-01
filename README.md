@@ -7,6 +7,8 @@ manipulator.
 > M. A. Yusuf, N. M. Alyazidi, Md Shafiullah, A. Nasir,
 > *Automatic Symbolic–Numerical Derivation of Explicit Base Parameters from Robot Dynamic Equations*
 > (submitted to Mechanism and Machine Theory; citation and DOI to be added).
+>
+> Repository: https://github.com/Muhammad-Adel-Yusuf/base-parameter-regrouping
 
 ## What it does
 
