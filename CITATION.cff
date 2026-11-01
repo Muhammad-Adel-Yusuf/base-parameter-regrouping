@@ -16,7 +16,7 @@ authors:
     given-names: "Ali"
     orcid: "https://orcid.org/0000-0002-7789-428X"
 repository-code: "https://github.com/Muhammad-Adel-Yusuf/base-parameter-regrouping"
-# doi: "10.5281/zenodo.XXXXXXX"   # add after the first release is archived on Zenodo
+doi: "10.5281/zenodo.23868741"
 preferred-citation:
   type: article
   title: "Automatic Symbolic-Numerical Derivation of Explicit Base Parameters from Robot Dynamic Equations"
