@@ -76,6 +76,23 @@ framework to **your own robot**, write the symbolic torque equations as MATLAB a
 (`Torque_k = <expression>;`) in `torque_equations/Torque_1.txt … Torque_n.txt`, as in the examples
 (see `load_torque_equations.m`), and adapt the kinematic symbols and settings at the top of the B scripts; the options of the core function are documented in `regroup_base_parameters.m`.
 
+## Verification scripts
+
+The saved regressors (`<robot>/results/**/base_regressor.mat`) let you rerun the exact checks without
+repeating the regrouping:
+
+| Script | What it proves | Output |
+|---|---|---|
+| `verification/certify_all.m` | exact dependency certificate `A_D = A_I*Gamma` for all 12 variants | `certificates_summary.txt` |
+| `verification/reconstruction_check.m` | exact reconstruction `tau_sym = A*Theta` (six-joint robots; about 2–3 min per variant) | `reconstruction_check.txt` in each results folder |
+| `verification/perturbation_test.m` | sampled residual versus exact verdict for a perturbed dependency coefficient (UR5e, IRB 120) | `perturbation_test.txt` |
+
+```matlab
+cd verification
+V = reconstruction_check('UR5e', 'known_geometry');   % variants: results, known_geometry, actuation, actuation_known_geometry
+```
+
+The Panda reconstruction was checked numerically only (see the paper).
 ## Data and the identification study
 
 The result summaries of the identification and validation study are included (see `RESULTS.md`). The Simscape datasets and the identification scripts that produced them are not part of

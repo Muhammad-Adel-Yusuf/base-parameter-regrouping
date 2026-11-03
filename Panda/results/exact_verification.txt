@@ -1,0 +1,7 @@
+Dependent columns                      : 86
+Exact coefficient candidate            : finite decimals (12 decimals)
+Max |Gamma_candidate - Gamma_float|    : 4.441e-16
+Entries of A_D - A_I*Gamma checked     : 602
+Entries with nonzero remainder         : 0
+Equivalence certified exactly          : 1
+Run time                               : 56.4 s

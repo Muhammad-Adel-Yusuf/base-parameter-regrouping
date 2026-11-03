@@ -1,0 +1,9 @@
+robot   delta      numerical residual     unperturbed residual   exact verdict
+UR5e    1e-06      1.566e-05              4.174e-14              rejected (6 entries nonzero)
+UR5e    1e-09      1.566e-08              4.174e-14              rejected (6 entries nonzero)
+UR5e    1e-12      1.566e-11              4.174e-14              rejected (6 entries nonzero)
+UR5e    1e-14      1.572e-13              4.174e-14              rejected (6 entries nonzero)
+IRB120  1e-06      9.784e-06              1.776e-14              rejected (6 entries nonzero)
+IRB120  1e-09      9.784e-09              1.776e-14              rejected (6 entries nonzero)
+IRB120  1e-12      9.780e-12              1.776e-14              rejected (6 entries nonzero)
+IRB120  1e-14      9.592e-14              1.776e-14              rejected (6 entries nonzero)
