@@ -1,7 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite the associated paper."
-title: "Automatic base-parameter regrouping for robot dynamic equations"
+title: "SYCIRO: SYmbolic Certified Identification of RObots"
 type: software
+license: MIT
 authors:
   - family-names: "Yusuf"
     given-names: "Muhammad Adel"
@@ -19,7 +20,7 @@ repository-code: "https://github.com/Muhammad-Adel-Yusuf/base-parameter-regroupi
 doi: "10.5281/zenodo.23868741"
 preferred-citation:
   type: article
-  title: "Automatic Symbolic-Numerical Derivation of Explicit Base Parameters from Robot Dynamic Equations"
+  title: "SYCIRO: From the Modified DH Table to Certified Base Parameters and Identification of Serial Robots"
   authors:
     - family-names: "Yusuf"
       given-names: "Muhammad Adel"
@@ -29,5 +30,5 @@ preferred-citation:
       given-names: "Md"
     - family-names: "Nasir"
       given-names: "Ali"
-  status: "in-review"
-  journal: "Mechanism and Machine Theory"
+  status: "submitted"
+  year: 2026

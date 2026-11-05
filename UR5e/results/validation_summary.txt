@@ -1,9 +1,0 @@
-Independent validation trajectory (UR5e): 7501 samples, 30 s, f = [0.057 0.071 0.093 0.113 0.137 0.159] Hz
-max |tau| = 52.41 N m, torque RMS = 11.873 N m
-Parameters                           RMSE (N m)  max |e| (N m)        NRMSE (%)
-nominal                               1.454e-10      1.152e-09        1.224e-09
-OLS (clean data)                      1.276e-10      7.542e-10        1.075e-09
-RLS (clean data)                      6.469e-10      3.823e-09        5.449e-09
-Huber IRLS (clean data)               1.251e-10      7.364e-10        1.053e-09
-OLS (contaminated data)               1.983e-02      1.088e-01        1.670e-01
-Huber IRLS (contaminated data)        9.476e-03      7.820e-02        7.981e-02

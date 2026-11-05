@@ -1,7 +1,0 @@
-Independent validation trajectory (IRB120): 7501 samples, 30 s, f = [0.057 0.071 0.093 0.113 0.137 0.159] Hz
-max |tau| = 23.51 N m, torque RMS = 6.864 N m
-Parameters                           RMSE (N m)  max |e| (N m)        NRMSE (%)
-nominal                               5.541e-15      5.329e-14        8.073e-14
-OLS (clean data)                      1.245e-14      8.171e-14        1.814e-13
-RLS (clean data)                      1.811e-10      9.627e-10        2.639e-09
-Huber IRLS (clean data)               1.245e-14      8.171e-14        1.814e-13

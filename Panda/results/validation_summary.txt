@@ -1,7 +1,0 @@
-Independent validation trajectory (Panda): 7501 samples, 30 s, f = [0.057 0.071 0.093 0.113 0.137 0.159 0.179] Hz
-max |tau| = 49.04 N m, torque RMS = 12.578 N m
-Parameters                           RMSE (N m)  max |e| (N m)        NRMSE (%)
-nominal                               3.403e-11      1.270e-10        2.706e-10
-OLS (clean data)                      3.920e-11      1.759e-10        3.117e-10
-RLS (clean data)                      9.043e-11      4.585e-10        7.190e-10
-Huber IRLS (clean data)               3.954e-11      1.661e-10        3.144e-10

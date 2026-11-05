@@ -7,3 +7,6 @@ slprj/
 codegen/
 # run logs
 *_log.txt
+# output written by SYCIRO runs
+results/
+results_app/

@@ -1,5 +1,0 @@
-Robot / variant                        : UR5e / results
-Joint residuals tau_sym - A*Theta      : 6
-Joint residuals with nonzero remainder : 0
-Reconstruction certified exactly       : 1
-Run time                               : 98.4 s
